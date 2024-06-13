@@ -5,7 +5,7 @@ import com.parkit.parkingsystem.model.Ticket;
 
 public class FareCalculatorService {
 
-    public void calculateFare(Ticket ticket){
+    public void calculateFare(Ticket ticket, boolean discount){
         if ((ticket.getInTime() == null) || (ticket.getOutTime() == null)) {
             throw new IllegalArgumentException("InTime and OutTime cannot be null");
         }
