@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ecb45fa-ed51-452b-9ce1-4c50fd27bd85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/parkingsystem/parking-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/config/DataBaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/dao/IParkingSpotDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/dao/ITicketDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/service/FareCalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/service/FareCalculatorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/service/InteractiveShell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/service/ParkingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/service/ParkingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/config/DataBaseConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/dao/ParkingSpotDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/dao/TicketDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/service/FareCalculatorServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/service/InteractiveShellImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tester-Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/resources/Data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/resources/Data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/config/DataBaseConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/constants/DBConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/constants/DBConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/constants/Fare.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/constants/Fare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/constants/ParkingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/constants/ParkingType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/dao/ParkingSpotDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/dao/ParkingSpotDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/dao/TicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/model/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/model/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/model/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/service/InteractiveShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/service/InteractiveShellImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/service/ParkingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/parkingsystem/util/InputReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/util/InputReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/parkingsystem/ParkingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/service/ParkingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/parkingsystem/integration/ParkingDataBaseIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/integration/ParkingDataBaseIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/parkingsystem/integration/config/DataBaseTestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/parkingsystem/integration/service/DataBasePrepareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/config/DataBasePrepareService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2imUkyn8trmS9dB9NAlPb6y2edP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SHH8701/opt/personnal/tester-Java/parkingsystem/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\src\main\resources" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\src\test\java\com\parkit\dao" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\src\main\java" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\src\test\java\com\parkit\config" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\src\main\java\com\parkit" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\src\main" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\service\src\main\java\com\parkit\parkingsystem\service" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\domain\src\main\java\com\parkit\parkingsystem\domain" />
+      <recent name="C:\Users\SHH8701\opt\personnal\tester-Java\parkingsystem\configuration\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.parkit.config" />
+      <recent name="com.parkit.service" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ecb45fa-ed51-452b-9ce1-4c50fd27bd85" name="Changes" comment="" />
+      <created>1720095393138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720095393138</updated>
+      <workItem from="1720095394201" duration="6190000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

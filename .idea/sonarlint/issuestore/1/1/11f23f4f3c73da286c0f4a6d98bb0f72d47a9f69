@@ -1,0 +1,15 @@
+
+g	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(½¦ÀÜúÿÿÿÿ8˜ê‡ğ‡2
+G	java:S106="+Replace this use of System.out by a logger.(ùÄ‘8­ê‡ğ‡2
+L	java:S106>"+Replace this use of System.out by a logger.(ò‡òûÿÿÿÿ8®ê‡ğ‡2
+L	java:S106?"+Replace this use of System.out by a logger.(É…›àşÿÿÿÿ8¯ê‡ğ‡2
+L	java:S106C"+Replace this use of System.out by a logger.(êĞ”ôûÿÿÿÿ8±ê‡ğ‡2
+L	java:S106X"+Replace this use of System.out by a logger.(×„®Ñûÿÿÿÿ8¶ê‡ğ‡2
+G	java:S106Y"+Replace this use of System.out by a logger.(ÕÄ›õ8·ê‡ğ‡2
+G	java:S106["+Replace this use of System.out by a logger.(Ãñ–Û8·ê‡ğ‡2
+L	java:S106_"+Replace this use of System.out by a logger.(‚ïåıÿÿÿÿ8·ê‡ğ‡2
+F	java:S106j"+Replace this use of System.out by a logger.(Üï¨E8¸ê‡ğ‡2
+M	java:S106Š"+Replace this use of System.out by a logger.(Ú€ãòüÿÿÿÿ8»ê‡ğ‡2
+H	java:S106‹"+Replace this use of System.out by a logger.(§µ‘á8¼ê‡ğ‡2
+G	java:S106Œ"+Replace this use of System.out by a logger.(“õé28¼ê‡ğ‡2
+H	java:S106”"+Replace this use of System.out by a logger.(§‘¬Î8¼ê‡ğ‡2
