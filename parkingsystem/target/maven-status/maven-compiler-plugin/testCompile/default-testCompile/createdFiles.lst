@@ -1,0 +1,8 @@
+com\parkit\config\DataBaseConfigTest.class
+com\parkit\service\InteractiveShellImplTest.class
+com\parkit\config\DataBasePrepareService.class
+com\parkit\dao\TicketDAOTest.class
+com\parkit\service\FareCalculatorServiceImplTest.class
+com\parkit\dao\ParkingSpotDAOTest.class
+com\parkit\service\ParkingServiceImplTest.class
+com\parkit\integration\ParkingDataBaseIT.class

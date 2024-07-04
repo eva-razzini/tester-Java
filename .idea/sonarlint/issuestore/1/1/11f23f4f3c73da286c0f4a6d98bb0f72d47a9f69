@@ -1,15 +1,15 @@
 
-g	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(½¦ÀÜúÿÿÿÿ8˜ê‡ğ‡2
-G	java:S106="+Replace this use of System.out by a logger.(ùÄ‘8­ê‡ğ‡2
-L	java:S106>"+Replace this use of System.out by a logger.(ò‡òûÿÿÿÿ8®ê‡ğ‡2
-L	java:S106?"+Replace this use of System.out by a logger.(É…›àşÿÿÿÿ8¯ê‡ğ‡2
-L	java:S106C"+Replace this use of System.out by a logger.(êĞ”ôûÿÿÿÿ8±ê‡ğ‡2
-L	java:S106X"+Replace this use of System.out by a logger.(×„®Ñûÿÿÿÿ8¶ê‡ğ‡2
-G	java:S106Y"+Replace this use of System.out by a logger.(ÕÄ›õ8·ê‡ğ‡2
-G	java:S106["+Replace this use of System.out by a logger.(Ãñ–Û8·ê‡ğ‡2
-L	java:S106_"+Replace this use of System.out by a logger.(‚ïåıÿÿÿÿ8·ê‡ğ‡2
-F	java:S106j"+Replace this use of System.out by a logger.(Üï¨E8¸ê‡ğ‡2
-M	java:S106Š"+Replace this use of System.out by a logger.(Ú€ãòüÿÿÿÿ8»ê‡ğ‡2
-H	java:S106‹"+Replace this use of System.out by a logger.(§µ‘á8¼ê‡ğ‡2
-G	java:S106Œ"+Replace this use of System.out by a logger.(“õé28¼ê‡ğ‡2
-H	java:S106”"+Replace this use of System.out by a logger.(§‘¬Î8¼ê‡ğ‡2
+†	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(½¦ÀÜúÿÿÿÿJ$29a87beb-04d1-43c0-a8ff-a5c33b1afb50
+f	java:S106="+Replace this use of System.out by a logger.(ùÄ‘J$a02187f8-107e-4246-8365-8a7298c91b17
+k	java:S106>"+Replace this use of System.out by a logger.(ò‡òûÿÿÿÿJ$66daa356-afba-448f-b4dd-409b4fee2403
+k	java:S106?"+Replace this use of System.out by a logger.(É…›àşÿÿÿÿJ$87572e13-cb28-415c-ab00-1bcfcfb8b6a0
+k	java:S106C"+Replace this use of System.out by a logger.(êĞ”ôûÿÿÿÿJ$1bec7b85-171c-4b96-918c-8dd5c639caee
+k	java:S106X"+Replace this use of System.out by a logger.(×„®ÑûÿÿÿÿJ$3a3d752c-50ab-48ba-b614-fc88770ee7b8
+f	java:S106Y"+Replace this use of System.out by a logger.(ÕÄ›õJ$3ee405ee-bc46-4868-b25a-798180d15b80
+f	java:S106["+Replace this use of System.out by a logger.(Ãñ–ÛJ$c79b7029-43ac-4b2a-b05d-be48372f5eba
+k	java:S106_"+Replace this use of System.out by a logger.(‚ïåıÿÿÿÿJ$7d0e4f63-b38a-40b6-8fcc-42406face654
+e	java:S106j"+Replace this use of System.out by a logger.(Üï¨EJ$f0ac2515-a77c-4fd2-89f9-788561c36d38
+l	java:S106Š"+Replace this use of System.out by a logger.(Ú€ãòüÿÿÿÿJ$10e9d4cc-cf85-4a56-ae2e-98dcb11a1052
+g	java:S106‹"+Replace this use of System.out by a logger.(§µ‘áJ$1f1c2b14-7be5-4d79-b4d3-a90ddb6d5be5
+f	java:S106Œ"+Replace this use of System.out by a logger.(“õé2J$b6faf3bc-e6b0-43d1-adda-f6ed02fe3317
+g	java:S106”"+Replace this use of System.out by a logger.(§‘¬ÎJ$37ff204d-38e7-4d23-8a24-41ae43d8fb63

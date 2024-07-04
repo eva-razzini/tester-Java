@@ -5,13 +5,11 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class DataBaseConfig {
-    private static final Logger logger = LogManager.getLogger(DataBaseConfig.class);
+    private static final Logger logger = LogManager.getLogger("DataBaseConfig");
     private Properties properties;
 
     public DataBaseConfig() {
@@ -33,24 +31,17 @@ public class DataBaseConfig {
     }
 
     public Connection getConnection() throws SQLException {
-        logger.info("Creating DB connection");
+        logger.info("Create DB connection");
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             logger.error("MySQL JDBC Driver not found", e);
-            throw new RuntimeException("MySQL JDBC Driver not found", e);
+            throw new SQLException("MySQL JDBC Driver not found", e);
         }
-
-        String url = properties.getProperty("db.url");
-        String username = properties.getProperty("db.username");
-        String password = properties.getProperty("db.password");
-
-        if (url == null || username == null || password == null) {
-            logger.error("Database connection properties not set");
-            throw new SQLException("Database connection properties not set");
-        }
-
-        return DriverManager.getConnection(url, username, password);
+        return DriverManager.getConnection(
+                properties.getProperty("db.url"),
+                properties.getProperty("db.username"),
+                properties.getProperty("db.password"));
     }
 
     public void closeConnection(Connection con) {
@@ -63,5 +54,26 @@ public class DataBaseConfig {
             }
         }
     }
-}
 
+    public void closePreparedStatement(PreparedStatement ps) {
+        if (ps != null) {
+            try {
+                ps.close();
+                logger.info("Closing Prepared Statement");
+            } catch (SQLException e) {
+                logger.error("Error while closing prepared statement", e);
+            }
+        }
+    }
+
+    public void closeResultSet(ResultSet rs) {
+        if (rs != null) {
+            try {
+                rs.close();
+                logger.info("Closing Result Set");
+            } catch (SQLException e) {
+                logger.error("Error while closing result set", e);
+            }
+        }
+    }
+}

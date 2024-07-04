@@ -57,20 +57,21 @@ public class TicketDAOTest {
 
     @Test
     public void saveTicket_Success() throws Exception {
-        doNothing().when(mockPreparedStatement).setInt(anyInt(), anyInt());
-        doNothing().when(mockPreparedStatement).setString(anyInt(), anyString());
-        doNothing().when(mockPreparedStatement).setDouble(anyInt(), anyDouble());
-        doNothing().when(mockPreparedStatement).setTimestamp(anyInt(), any(Timestamp.class));
-        when(mockPreparedStatement.execute()).thenReturn(true);
+        doNothing().when(mockConnection).setAutoCommit(false);
+        doNothing().when(mockConnection).commit();
+        doNothing().when(mockConnection).rollback();
 
-        ticketDAO.saveTicket(ticket);
+        assertDoesNotThrow(() -> ticketDAO.saveTicket(ticket));
 
         verify(mockPreparedStatement, times(1)).setInt(1, ticket.getParkingSpot().getNumber());
         verify(mockPreparedStatement, times(1)).setString(2, ticket.getVehicleRegNumber());
         verify(mockPreparedStatement, times(1)).setDouble(3, ticket.getPrice());
         verify(mockPreparedStatement, times(1)).setTimestamp(4, DateUtil.toTimestamp(ticket.getInTime()));
         verify(mockPreparedStatement, times(1)).setTimestamp(5, DateUtil.toTimestamp(ticket.getOutTime()));
+        verify(mockPreparedStatement, times(1)).executeUpdate();
+        verify(mockConnection, times(1)).commit();
     }
+
 
     @Test
     public void getTicket_Success() throws Exception {

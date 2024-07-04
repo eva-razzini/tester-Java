@@ -1,5 +1,7 @@
 
 ;
-java:S57867"Remove this 'public' modifier.(Ÿ¨¼·8ÃÚ°ð‡2
+java:S57867"Remove this 'public' modifier.(Ÿ¨¼·8Ì²Õ÷‡2
 @
-java:S5786E"Remove this 'public' modifier.(®ø‚³üÿÿÿÿ8ÄÚ°ð‡2
+java:S5786E"Remove this 'public' modifier.(®ø‚³üÿÿÿÿ8Í²Õ÷‡2
+Ž
+java:S1130$"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(› –Ÿøÿÿÿÿ8Í²Õ÷‡2

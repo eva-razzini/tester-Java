@@ -9,11 +9,7 @@ import com.parkit.util.DateUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Timestamp;
+import java.sql.*;
 
 /**
  * DAO class for managing tickets in the database.
@@ -39,17 +35,31 @@ public class TicketDAO implements ITicketDAO {
     @Override
     public void saveTicket(Ticket ticket) {
         logger.info("Saving ticket for vehicle number: {}", ticket.getVehicleRegNumber());
-        try (Connection con = dataBaseConfig.getConnection();
-             PreparedStatement ps = con.prepareStatement(DBConstants.SAVE_TICKET)) {
-
+        Connection con = null;
+        PreparedStatement ps = null;
+        try {
+            con = dataBaseConfig.getConnection();
+            con.setAutoCommit(false); // Begin transaction
+            ps = con.prepareStatement(DBConstants.SAVE_TICKET);
             ps.setInt(1, ticket.getParkingSpot().getNumber());
             ps.setString(2, ticket.getVehicleRegNumber());
             ps.setDouble(3, ticket.getPrice());
             ps.setTimestamp(4, DateUtil.toTimestamp(ticket.getInTime()));
             ps.setTimestamp(5, (ticket.getOutTime() == null) ? null : DateUtil.toTimestamp(ticket.getOutTime()));
             ps.executeUpdate();
+            con.commit(); // Commit transaction
         } catch (SQLException ex) {
             logger.error("Error saving ticket for vehicle number: {}", ticket.getVehicleRegNumber(), ex);
+            if (con != null) {
+                try {
+                    con.rollback(); // Rollback transaction in case of error
+                } catch (SQLException rollbackEx) {
+                    logger.error("Error rolling back transaction", rollbackEx);
+                }
+            }
+        } finally {
+            dataBaseConfig.closePreparedStatement(ps);
+            dataBaseConfig.closeConnection(con);
         }
     }
 
@@ -63,24 +73,30 @@ public class TicketDAO implements ITicketDAO {
     public Ticket getTicket(String vehicleRegNumber) {
         logger.info("Fetching ticket for vehicle number: {}", vehicleRegNumber);
         Ticket ticket = null;
-        try (Connection con = dataBaseConfig.getConnection();
-             PreparedStatement ps = con.prepareStatement(DBConstants.GET_TICKET)) {
-
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            con = dataBaseConfig.getConnection();
+            ps = con.prepareStatement(DBConstants.GET_TICKET);
             ps.setString(1, vehicleRegNumber);
-            try (ResultSet rs = ps.executeQuery()) {
-                if (rs.next()) {
-                    ParkingSpot parkingSpot = new ParkingSpot(rs.getInt(1), ParkingType.valueOf(rs.getString(6)), false);
-                    ticket = new Ticket();
-                    ticket.setParkingSpot(parkingSpot);
-                    ticket.setId(rs.getInt(2));
-                    ticket.setVehicleRegNumber(vehicleRegNumber);
-                    ticket.setPrice(rs.getDouble(3));
-                    ticket.setInTime(rs.getTimestamp(4));
-                    ticket.setOutTime(rs.getTimestamp(5));
-                }
+            rs = ps.executeQuery();
+            if (rs.next()) {
+                ParkingSpot parkingSpot = new ParkingSpot(rs.getInt(1), ParkingType.valueOf(rs.getString(6)), false);
+                ticket = new Ticket();
+                ticket.setParkingSpot(parkingSpot);
+                ticket.setId(rs.getInt(2));
+                ticket.setVehicleRegNumber(vehicleRegNumber);
+                ticket.setPrice(rs.getDouble(3));
+                ticket.setInTime(rs.getTimestamp(4));
+                ticket.setOutTime(rs.getTimestamp(5));
             }
         } catch (SQLException ex) {
             logger.error("Error fetching ticket for vehicle number: {}", vehicleRegNumber, ex);
+        } finally {
+            dataBaseConfig.closeResultSet(rs);
+            dataBaseConfig.closePreparedStatement(ps);
+            dataBaseConfig.closeConnection(con);
         }
         return ticket;
     }
@@ -94,17 +110,31 @@ public class TicketDAO implements ITicketDAO {
     @Override
     public boolean updateTicket(Ticket ticket) {
         logger.info("Updating ticket for vehicle number: {}", ticket.getVehicleRegNumber());
-        try (Connection con = dataBaseConfig.getConnection();
-             PreparedStatement ps = con.prepareStatement(DBConstants.UPDATE_TICKET)) {
-
+        Connection con = null;
+        PreparedStatement ps = null;
+        try {
+            con = dataBaseConfig.getConnection();
+            con.setAutoCommit(false); // Begin transaction
+            ps = con.prepareStatement(DBConstants.UPDATE_TICKET);
             ps.setDouble(1, ticket.getPrice());
             ps.setTimestamp(2, new Timestamp(ticket.getOutTime().getTime()));
             ps.setInt(3, ticket.getId());
             int rowCount = ps.executeUpdate();
+            con.commit(); // Commit transaction
             return (rowCount == 1);
         } catch (SQLException ex) {
             logger.error("Error updating ticket for vehicle number: {}", ticket.getVehicleRegNumber(), ex);
+            if (con != null) {
+                try {
+                    con.rollback(); // Rollback transaction in case of error
+                } catch (SQLException rollbackEx) {
+                    logger.error("Error rolling back transaction", rollbackEx);
+                }
+            }
             return false;
+        } finally {
+            dataBaseConfig.closePreparedStatement(ps);
+            dataBaseConfig.closeConnection(con);
         }
     }
 
@@ -133,5 +163,3 @@ public class TicketDAO implements ITicketDAO {
         return count;
     }
 }
-
-
