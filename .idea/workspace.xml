@@ -5,59 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7414355b-7e86-437f-be52-3750aece1108" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d31526978a17ba0b4a0bc47301010de4f1d079c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d788d5a05047420fd1e9d95eca3b41fc1351420" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d788d5a05047420fd1e9d95eca3b41fc1351420" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11f23f4f3c73da286c0f4a6d98bb0f72d47a9f69" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11f23f4f3c73da286c0f4a6d98bb0f72d47a9f69" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d231df7683059732aacc951079a785f2410961d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/3426400e436333088e6da59430939956d65bd0c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a804abcb16582602a968beec41c20237c04efe9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a804abcb16582602a968beec41c20237c04efe9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72b4f62a7de52cebb61cfa19ab56c45dd794996c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e3e26b85d9f6f32415aa35cb557230e9c833f06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a804abcb16582602a968beec41c20237c04efe9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/845d57f60b04508f05f9bddfdd3890b5f8d97317" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/845d57f60b04508f05f9bddfdd3890b5f8d97317" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99811b65de1334743ed4257d983d9ebc46291d70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c41c94715337cd360000526e249b85938819e57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8387226e7f96ff6ea0a5ab9786dcdba3a511120" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a94da9edc6233390f1ebb96fa0411520d7213fbb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b01ed1c83208920caea60e5056f8f7d4d9d659c8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b01ed1c83208920caea60e5056f8f7d4d9d659c8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b17a722392f8169a31c1c3fca79a4b163af15213" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b17a722392f8169a31c1c3fca79a4b163af15213" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b896dc00442921fb90e6a96951ca45c9817a8426" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc302656ca4da3733658261ae4a727c9bdafe907" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c120b7bf07aea9e0011ae9d97297b3ca72312108" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c120b7bf07aea9e0011ae9d97297b3ca72312108" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2eab205d58766f557d3820de61b7c4513b75be9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c39a5789b605c0b080a33682c4793932c8583bac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce0614f33d08e4598dbed4b2534cece91ed68733" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de8428504c1d987879ad56657b9a780f68cedd93" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de8428504c1d987879ad56657b9a780f68cedd93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3502251f650710df52aca580e4f4a821c5ce822" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3502251f650710df52aca580e4f4a821c5ce822" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1ac49b53816e4286906c88552c791d82ef33acd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4235d73cfa3ed48b36db41eb223b0d454088a75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de8428504c1d987879ad56657b9a780f68cedd93" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/d/0d31526978a17ba0b4a0bc47301010de4f1d079c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d231df7683059732aacc951079a785f2410961d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/3426400e436333088e6da59430939956d65bd0c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/2/72b4f62a7de52cebb61cfa19ab56c45dd794996c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e3e26b85d9f6f32415aa35cb557230e9c833f06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/9/99811b65de1334743ed4257d983d9ebc46291d70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c41c94715337cd360000526e249b85938819e57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a8387226e7f96ff6ea0a5ab9786dcdba3a511120" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/9/a94da9edc6233390f1ebb96fa0411520d7213fbb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b896dc00442921fb90e6a96951ca45c9817a8426" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/c/bc302656ca4da3733658261ae4a727c9bdafe907" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c2eab205d58766f557d3820de61b7c4513b75be9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c39a5789b605c0b080a33682c4793932c8583bac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/e/ce0614f33d08e4598dbed4b2534cece91ed68733" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f1ac49b53816e4286906c88552c791d82ef33acd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f4235d73cfa3ed48b36db41eb223b0d454088a75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/a/5a804abcb16582602a968beec41c20237c04efe9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/e/de8428504c1d987879ad56657b9a780f68cedd93" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/config/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/config/DataBaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/constants/DBConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/constants/DBConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/java/com/parkit/dao/TicketDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/resources/Data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/resources/Data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/config/DataBaseConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/config/DataBaseConfigITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/config/DataBasePrepareService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/dao/TicketDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/dao/TicketDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/parkingsystem/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/target/parking-system-1.0.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingsystem/target/parking-system-1.0.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2impy9ijUmLp3t8PQSE5W43bLlZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,8 +49,11 @@
     "JUnit.TicketDAOTest.executor": "Run",
     "JUnit.TicketDAOTest.saveTicket_Success.executor": "Run",
     "JUnit.com.parkit.config in parking-system.executor": "Run",
+    "JUnit.config in parking-system.executor": "Run",
     "JUnit.dao in parking-system.executor": "Run",
+    "JUnit.integration in parking-system.executor": "Run",
     "JUnit.parkit in parking-system.executor": "Run",
+    "JUnit.service in parking-system.executor": "Run",
     "Maven.parking-system [clean,install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -109,48 +72,11 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.parkit in parking-system">
-    <configuration name="DataBaseConfigITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.service in parking-system">
+    <configuration name="config in parking-system" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parkit.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parkit.config" />
-      <option name="MAIN_CLASS_NAME" value="com.parkit.config.DataBaseConfigITest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingDataBaseIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parking-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parkit.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parkit.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.parkit.integration.ParkingDataBaseIT" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parking-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parkit.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parkit.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.parkit.dao.TicketDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/config" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,6 +89,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="integration in parking-system" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/integration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="parkit in parking-system" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking-system" />
       <option name="TEST_OBJECT" value="directory" />
@@ -171,13 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="service in parking-system" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking-system" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/parkingsystem/src/test/java/com/parkit/service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.parkit in parking-system" />
-        <item itemvalue="JUnit.ParkingDataBaseIT" />
+        <item itemvalue="JUnit.service in parking-system" />
+        <item itemvalue="JUnit.integration in parking-system" />
         <item itemvalue="JUnit.dao in parking-system" />
-        <item itemvalue="JUnit.TicketDAOTest" />
-        <item itemvalue="JUnit.DataBaseConfigITest" />
+        <item itemvalue="JUnit.config in parking-system" />
+        <item itemvalue="JUnit.parkit in parking-system" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720105858285</updated>
       <workItem from="1720105859345" duration="5981000" />
+      <workItem from="1720439937859" duration="414000" />
     </task>
     <servers />
   </component>

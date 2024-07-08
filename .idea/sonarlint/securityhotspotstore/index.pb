@@ -3,12 +3,8 @@ E
 parkingsystem/pom.xml,6\b\6b452b699ddb117b0e19b3ddd986d5733e315d33
 q
 Aparkingsystem/src/main/java/com/parkit/config/DataBaseConfig.java,c\1\c120b7bf07aea9e0011ae9d97297b3ca72312108
-u
-Eparkingsystem/src/test/java/com/parkit/config/DataBaseConfigTest.java,d\e\de8428504c1d987879ad56657b9a780f68cedd93
 v
 Fparkingsystem/src/test/java/com/parkit/config/DataBaseConfigITest.java,3\3\33f1dbbb9dd8663152fb3103e07fcc7741af861c
-y
-Iparkingsystem/src/test/java/com/parkit/config/DataBasePrepareService.java,5\a\5a804abcb16582602a968beec41c20237c04efe9
 q
 Aparkingsystem/src/main/java/com/parkit/constants/DBConstants.java,0\d\0d788d5a05047420fd1e9d95eca3b41fc1351420
 n

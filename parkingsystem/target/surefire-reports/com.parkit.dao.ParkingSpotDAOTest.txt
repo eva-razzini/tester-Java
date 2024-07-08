@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.parkit.dao.ParkingSpotDAOTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.290 s -- in com.parkit.dao.ParkingSpotDAOTest
