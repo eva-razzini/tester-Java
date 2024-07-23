@@ -6,6 +6,7 @@ import com.parkit.parkingsystem.integration.config.DataBaseTestConfig;
 import com.parkit.parkingsystem.integration.service.DataBasePrepareService;
 import com.parkit.parkingsystem.model.ParkingSpot;
 import com.parkit.parkingsystem.model.Ticket;
+import com.parkit.parkingsystem.service.FareCalculatorService;
 import com.parkit.parkingsystem.service.ParkingService;
 import com.parkit.parkingsystem.util.InputReaderUtil;
 import org.junit.jupiter.api.*;
@@ -13,8 +14,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
@@ -51,32 +51,31 @@ public class ParkingDataBaseIT {
 
 
     @Test
-    public void testParkingACar(){
+    public void testParkingACar() {
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
         parkingService.processIncomingVehicle();
-        Ticket ticket = ticketDAO.getTicket("ABCDEF"); // Replace "ABCDEF" with the actual vehicle registration number used in the test
-        assertNotNull(ticket, "Expected a ticket to be saved in the database");
 
-        // Check that Parking table is updated with availability
+        Ticket ticket = ticketDAO.getTicket("ABCDEF");
+        assertNotNull(ticket, "Ticket should be saved in the database");
+        assertNotNull(ticket.getInTime(), "In-time should be populated");
+
         ParkingSpot parkingSpot = parkingSpotDAO.getParkingSpot(ticket.getParkingSpot().getId());
-        assertTrue(parkingSpot.isAvailable(), "Expected parking spot to be marked as available");
+        assertNotNull(parkingSpot, "Parking spot should exist");
+        assertFalse(parkingSpot.isAvailable(), "Parking spot should be marked as unavailable");
     }
 
     @Test
-    public void testParkingLotExit(){
-        // Park a car first to get a ticket
+    public void testParkingLotExit() {
         testParkingACar();
-
-        // Exit the parked car
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
         parkingService.processExitingVehicle();
 
-        // Check that fare generated and out time are populated correctly in the database
-        Ticket ticket = ticketDAO.getTicket("ABCDEF"); // Replace "ABCDEF" with the actual vehicle registration number used in the test
-        assertNotNull(ticket, "Expected ticket to be retrieved from database");
+        Ticket ticket = ticketDAO.getTicket("ABCDEF");
+        assertNotNull(ticket.getOutTime(), "Out-time should be populated");
+        assertTrue(ticket.getPrice() > 0, "Price should be calculated and set");
 
-        assertNotNull(ticket.getOutTime(), "Expected out time to be populated in the ticket");
-        assertTrue(ticket.getPrice() >= 0, "Expected fare to be calculated and populated in the ticket");
+        ParkingSpot parkingSpot = parkingSpotDAO.getParkingSpot(ticket.getParkingSpot().getId());
+        assertTrue(parkingSpot.isAvailable(), "Parking spot should be marked as available");
     }
 
 
